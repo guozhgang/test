@@ -1,0 +1,739 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>网站首页-江西省扶贫和移民办公室</title>
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7" />
+<meta content="" name="Keywords" />
+<meta content="" name="Description"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<link href="${path}/portal/css/style.css"  type="text/css"  rel="stylesheet" />
+<link href="${path}/portal/css/lanrentuku.css" type="text/css" rel="stylesheet" /> 
+<link href="${path}/portal/css/menu.css" rel="stylesheet" type="text/css" />
+
+<script  src="/jxfpb/scripts/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script  src="${path}/portal/js/nav.js" type="text/javascript"></script>
+<script src="${path}/scripts/jquery.min.js" type="text/javascript"></script>
+<script src="/jxfpb/scripts/jquery-gallery.js" type="text/javascript"></script>
+<style type="text/css">
+<!--
+*{margin:0; padding:0;}
+ul{ list-style:none;}
+.gallery {
+ position: relative;
+ width: 359px;
+ height: 276px;
+}
+.gallery_img {
+ position: absolute;
+ top: 0px;
+ left: 0px;
+ width: 359px;
+ height: 276px;
+ overflow: hidden;
+}
+.gallery_img ul { position: relative; }
+.gallery_img ul li { float: left; width: 359px;height: 276px;}
+.gallery_img ul li img { border-radius: 0px; }
+.gallery ol {
+ position: absolute;
+ top:255px;
+}
+.gallery ol li {
+ float: left;
+ background:#ccc;
+ width: 12px;
+ height: 12px;
+ margin-left: 5px;
+ text-align: center;
+ display: inherit;
+ text-indent: -9999px;
+ cursor: pointer;
+ border-radius: 16px;
+}
+.gallery ol li:hover{background:#635C5C;}
+-->
+</style>
+<script language="JavaScript">
+function SA80open()
+{ ContentWindow=window.open("images/map.html","_blank","toolbar=no,width=574,height=500;,directories=no,status=no,scrollbars=yes,resize=no,menubar=no");
+}
+$(function(){
+    $('.gallery').gallery({speed:1500});
+})
+-->
+</script>
+
+
+<meta name="baidu-tc-verification" content="09554674b77dda2afa741e6ce135285f" />
+
+
+</head>
+
+<body style="margin-top:45px; background:url(images/bg03_1.jpg) no-repeat top center;">
+<div id="content">
+
+<div id="topDiv">
+
+<!----top ---->
+<iframe name="content_frame" marginwidth=0 marginheight=0 width="980" height="360" scrolling="no" src="news-top.html" frameborder=0></iframe> 
+			 	
+</div>
+
+
+<!--main开始-->
+<div id="news_txt_top">
+  <div style="width:85px; height:90px; float:left;"><img src="images/tt_l.jpg" /></div>
+  <div style="width:853px; height:90px;float:left; background:url(images/tt_m.jpg);">
+  <!--<div style="font-size:42px; font-family: '黑体'; color:#124df5; padding-top:22px;"><div id="pe100_通用信息列表">
+            <li><a href="Item/11159.aspx.html" target="_blank">全省扶贫和移民工作座谈会在南昌召开</a></li>
+          </div></div>-->
+  <div id="topNews"><a target="_blank" href="Item/11159.aspx.html">
+        <#list title_ as article>
+       <#if article.ttType??>
+          <#if article.ttType = "1"><font style="font-size:40px;" color="#ce3400"><b>${article.articleTitle}</b></font></#if>
+       <#if article.ttType = "2"><font style="font-size:40px;" color="#ce3400"><b>${article.articleTitle}<br/>${article.secTitle}</b></font></#if>
+       <#if article.ttType = "3"><font style="font-size:40px;" color="#ce3400"><b>${article.articleTitle}</b></font><br/><font size="+3" color="yellow">${article.secTitle}</font></#if>
+              <#else>
+         <font size="15" color="red"><font style="font-size:40px;" color="#ce3400"><b>${article.articleTitle}</b></font>
+       </#if>
+       
+     </#list>  
+</a></div>
+  </div>
+  <div style="width:41px; height:90px; float:left; background:url(images/tt_r.jpg);"><a href="${path}/news-list/1010.html">更多</a></div>		   	
+			 </div>
+			 
+			 <div style=" float:left; width:979px; height:55px;">
+			 
+			 <img src="images/xxfbft.jpg" />
+			 </div>
+			 
+<div id="main">
+  <div  style="width:302px; float:left; padding-right:7px; ">
+  <!--notice开始-->
+      <div id="notice">
+	      <div  id="notice_top"><img src="images/notice_top.gif" border="0" usemap="#Mapb1" />
+<map name="Mapb1" id="Mapb1">
+  <area shape="rect" coords="251,6,294,28" href="${path}/news-list/1010.html" />
+</map></div> 
+     <div style="clear: none;" ></div> 
+
+		  <div id="notice_middle" >
+		     <ul>
+				 <#list news_1010 as article>
+				 	<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				 </#list>
+            </ul>
+		  </div> 
+	  
+	  </div>
+  <!--notice结束-->
+  
+  </div>
+  
+  <div  style="width:670px; float:left; _margin-right:-60px;">
+      <div id="news">
+<!--新闻图片开始-->	  
+	    <div id="news_img" class="gallery" style="text-align:center; padding-top:2px;">		
+			<div class="gallery_img">
+				<ul>
+                                <#list topnews as article>
+				<li><a href="${path}/news/${article.articleId}.html"><img src="${path}/app/upload-files/att/${article.imageAtt}" width="359" height="276" alt="${article.articleTitle}" />${article.articleTitle}</a></li></#list>
+				</ul>
+			</div>
+		  
+	    </div>
+<!--新闻图片结束-->  	  
+		  
+		  <div id="news_txt">	     
+		     <div id="news_txt_bottom">
+           <div style="width:303px; height:35px"><img src="images/news_top.jpg" usemap="#Map" border="0"/>
+             <map name="Map" id="Map">
+               <area shape="rect" coords="251,2,292,30" href="${path}/news-list/1015.html"/>
+             </map>
+           </div>	
+			<ul>
+				<#list news_1015 as article>
+				 	<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				</#list>
+			</ul>
+			 </div>
+	    </div>
+	 </div>
+	 
+
+ 
+	 	
+   </div>
+</div>
+
+<!--专题开始-->	     
+	 <div id="zhuanti">
+	 <div style="padding-left:50px;"><div id="zt" style="overflow:hidden;width:645px; height:93px; color:#ffffff; float:left;">
+      <table cellpadding="0" cellspacing="0" border="0">
+        <tr><td id="zt1" valign="top" align="center">
+          <table border="0" cellspacing="0" cellpadding="0">
+                        <tr>
+       				      <td><a href="Category/Category_370/Index.aspx.html"><img id="zhuanti_img" src="images/zt1.gif" border="0" /></a></td>
+                          <td><a href="Category/Category_364/Index.aspx.html" target="_blank"><img id="zhuanti_img" src="images/zt10.jpg" border="0" /></a></td>
+						  <td><a href="Category/Category_365/Index.aspx.html"><img id="zhuanti_img" src="images/zt3.gif" border="0" /></a></td>
+						  <td><a href="Category/Category_366/Index.aspx.html"><img id="zhuanti_img" src="images/zt9.jpg" border="0" /></a></td>
+                          <td><a href="#"><img id="zhuanti_img" src="images/zt4.gif" border="0" /></a></td>
+                          <td><a href="Category/Category_170/Index.aspx.html"><img id="zhuanti_img" src="images/zt5.gif" border="0" /></a></td>
+						  <td><a href="Category/Category_367/Index.aspx.html"><img id="zhuanti_img" src="images/zt6.jpg" border="0" /></a></td>
+						  <td><a href="Category/Category_368/Index.aspx.html"><img id="zhuanti_img" src="images/zt7.gif" border="0" /></a></td>
+                          <td><a href="Category/Category_369/Index.aspx.html"><img id="zhuanti_img" src="images/zt8.gif" border="0" /></a></td>
+                        </tr>
+              </table>
+        </td>
+        <td id="zt2" valign="top"></td>
+        </tr>
+      </table>
+    </div>
+<script> 
+var speed=30 
+zt2.innerHTML=zt1.innerHTML 
+function Marquee(){ 
+if(zt2.offsetWidth-zt.scrollLeft<=0) 
+zt.scrollLeft-=zt1.offsetWidth 
+else{ 
+zt.scrollLeft++ 
+} 
+} 
+var MyMar=setInterval(Marquee,speed) 
+zt.onmouseover=function() {clearInterval(MyMar)} 
+zt.onmouseout=function() {MyMar=setInterval(Marquee,speed)} 
+</script>
+	 </div>
+	 <div id="zhuanti_more"><img src="images/zt_more0717.jpg" border="0" usemap="#Mapzt717" />
+<map name="Mapzt717" id="Mapzt717">
+  <area shape="rect" coords="198,5,258,65" href="Category/Category_362/Index.aspx.html" target="_blank" /><area shape="rect" coords="3,2,188,65" href="Category/Category_371/Index.aspx.html" />
+</map></div>
+	 
+	 </div>
+<!--专题结束-->
+
+
+<div id="content1">
+
+<!---------地市风采------->
+	  <div id="news_txt2">
+	        <div style="background: url(images/news_top2.jpg); width:319px; height:35px; " >
+			   <div  style="float:left; font-size:12px; font-weight:bolder; color:#cb0101; padding-left:25px; padding-top:6px;">地市风采</div>      
+          <div  style="float:right; color:#333; padding-right:12px; padding-top:6px;"><a href="${path}/news-list/1011.html" style="text-decoration:none; color:#333;">更多>></a></div>  
+            </div>
+            
+		     <div id="news_txt_bottom2">
+			   <ul>
+			   <#list news_1011 as article>
+				 	<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				</#list>
+			   </ul>
+			 </div>  
+	    </div>
+        
+<!---------县市风采------->
+ <div id="news_txt2" style="padding-left:11px; padding-right:11px;">
+	        <div style="background: url(images/news_top2.jpg); width:319px; height:35px; " >
+			   <div  style="float:left; font-size:12px; font-weight:bolder; color:#cb0101; padding-left:25px; padding-top:6px;">县市风采</div>      
+          <div  style="float:right; color:#333; padding-right:12px; padding-top:6px;"><a href="${path}/news-list/1016.html" style="text-decoration:none; color:#333;">更多>></a></div>  
+            </div>
+            
+		     <div id="news_txt_bottom2">
+			   <ul>
+				<#list news_1016 as article>
+				 	<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				</#list>
+			   </ul>
+			 </div>  
+	    </div>        
+        
+
+
+
+
+<!---------外埠传真------->
+   <div id="news_txt2">
+	        <div style="background: url(images/news_top2.jpg); width:319px; height:35px; " >
+			   <div  style="float:left; font-size:12px; font-weight:bolder; color:#cb0101; padding-left:25px; padding-top:6px;">外埠传真</div>      
+          <div  style="float:right; color:#333; padding-right:12px; padding-top:6px;"><a href="${path}/news-list/1012.html" style="text-decoration:none; color:#333;">更多>></a></div>  
+            </div>
+            
+		     <div id="news_txt_bottom2">
+			   <ul>
+				<#list news_1016 as article>
+				 	<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				</#list>
+			   </ul>
+			 </div>  
+	    </div>      
+        
+        
+	 </div>
+
+
+
+<div id="main">
+  <div id="main_left">
+  <!--leadership开始-->	  
+	  <div  id="leadership">
+	     <div id="ld_top"><img src="images/ld_top.gif" border="0" usemap="#Mapb2" />
+<map name="Mapb2" id="Mapb2">
+  <area shape="rect" coords="189,3,232,22" href="${path}/news-list/19.html" />
+</map></div>
+
+
+
+	    <div id="ld_middle">
+	         
+		<div id="ld">
+			 <#list leadermap as leader>   
+		       	<div id="ld_r">
+				     <div id="ld_mc"><a href="${path}/news-list/111010.html">${leader.name}</a></div>
+				     <div id="ld_jj"><a href="${path}/news-list/111010.html">${leader.job}</a></div>
+		        </div> 
+                        </#list>
+		</div>
+			  
+			   
+			  
+	    </div>
+		 <div id="ld_bottom"><img src="images/ld_bottom.gif" /></div> 
+	  </div>
+<!--leadership结束-->
+
+<!--<div id="survey2"><a href="/Category_351/Index.aspx.html"><img src="images/index_52.gif" border="0" /></a></div>-->
+<!--offices开始-->
+	  <div id="offices">
+	      <div id="off_top"><img src="images/off_top.gif" /></div>
+		  <div id="off_middle">
+		    <ul>
+              <li><a href="${path}/portal/substations/station-complex.html">综合处 </a></li>
+		      <li><a href="${path}/portal/substations/station-regulations.html">政策法规处</a></li>
+		      <li><a href="${path}/portal/substations/station-planning.html">计划财务处</a></li>
+		      <li><a href="${path}/portal/substations/station-povertyManagement.html">扶贫项目管理处</a></li>
+		      <li><a href="${path}/portal/substations/station-socialLiaison.html">社会扶贫与对外联络处</a></li>
+		      <li><a href="${path}/portal/substations/station-povertyMove.html">搬迁扶贫处</a></li>
+		      <li><a href="${path}/portal/substations/station-ReservoirPop.html">水库移民安置处</a></li>
+		      <li><a href="${path}/portal/substations/station-afterhelpManagement.html">后扶基金项目管理处</a></li>
+		      <li><a href="${path}/portal/substations/station-reservoirManagement.html">库区基金项目管理处</a></li>
+		      <li><a href="${path}/portal/substations/station-migrantsManagement.html">三峡移民管理处</a></li>
+		      <li><a href="${path}/portal/substations/station-povertyAlleviation.html">科技扶贫处</a></li>
+		      <li><a href="${path}/portal/substations/station-partyOrgans.html">机关党委（人事处）</a></li>
+		      <li><a href="${path}/portal/substations/station-monitoringRoom.html">监察室</a></li>
+		      <li><a href="${path}/portal/substations/station-logisticsServiceCenter.html">后勤服务中心</a></li>
+	        </ul>
+		  </div>
+		  <div id="off_bottom"><img src="images/off_bottom.gif" /></div>   
+	     
+	  </div>
+<!--offices结束-->
+  
+  </div>
+  <div id="main_right">
+      
+	 
+<!--专题开始-->	     
+<div id="adbanner"><img src="images/index_23.gif" border="0" /></div>	 
+<!--专题结束-->		 
+	 
+<!--信息公开开始-->
+<div id="xxgk">
+  <div  id="xxgk_menu">
+  </div>
+  
+  <div id="gk_top"> 
+  <img src="images/gk_top.jpg" border="0" usemap="#Map0608" />
+<map name="Map0608" id="Map0608">
+  <area shape="rect" coords="21,12,178,37" href="http://xxgk.jiangxi.gov.cn/bmgkxx/sfpb/gkxx/201302/t20130225_849858.htm" target="_blank" />
+<area shape="rect" coords="201,14,361,37" href="http://xxgk.jiangxi.gov.cn/bmgkxx/sfpb/" target="_blank" /><area shape="rect" coords="387,13,546,38" href="http://xxgk.jiangxi.gov.cn/bmgkxx/sfpb/ndbg/" target="_blank" />
+<area shape="rect" coords="574,14,717,37" href="${path}/mailInfoFrontAction!addMailInfoBefore.front?mailType=4" />
+<area shape="rect" coords="14,46,120,76" href="http://xxgk.jiangxi.gov.cn/bmgkxx/sfpb/gkxx/jgzn/" />
+<area shape="rect" coords="131,47,238,77" href="${path}/news-list/1112.html" target="_blank" />
+<area shape="rect" coords="251,48,360,76" href="${path}/news-list/1216.html" target="_blank" />
+<area shape="rect" coords="372,48,479,75" href="${path}/news-list/1113.html" target="_blank" />
+<area shape="rect" coords="490,46,596,78" href="${path}/news-list/141112.html" target="_blank" />
+<area shape="rect" coords="612,46,714,76" href="${path}/news-list/1117.html" target="_blank" />
+</map>
+</div>   
+<!----gk_top结束----->
+
+
+<div id="gk_bottom">
+
+<div id="gk_news" style="padding-bottom:7px;">
+    <div id="gk_news_top"><img src="images/gk_news_top1.jpg" border="0" usemap="#Map0608a" />
+<map name="Map0608a" id="Map0608a"><area shape="rect" coords="314,3,354,24" href="${path}/news-list/1116.html" target="_blank" />
+</map></div>
+<div style="clear: none;" ></div> 
+    <div id="gk_news_middle">
+	     <ul>
+		  <#list news_142013 as article>
+				<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a ><span>[${(article.publishTime)?string("yy-MM")!}]</span></li>
+		  </#list>
+	     </ul>
+	</div>
+	<div id="gk_news_bottom"></div>
+</div>
+
+
+<div id="gk_news" style="padding-bottom:7px; padding-left:6px; _margin-left:-14px;">
+    <div id="gk_news_top"><img src="images/gk_news_top2.jpg" border="0" usemap="#Map0608b" />
+<map name="Map0608b" id="Map0608b">
+  <area shape="rect" coords="313,4,354,26" href="${path}/news-list/1118.html" target="_blank" />
+</map></div>
+    <div id="gk_news_middle">
+	     <ul>
+		  <#list news_141112 as article>
+				<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+		  </#list>
+	     </ul>
+	</div>
+	<div id="gk_news_bottom"></div>
+</div>
+
+
+
+<div id="gk_news">
+    <div id="gk_news_top"><img src="images/gk_news_top3.jpg" border="0" usemap="#Map0608c" />
+<map name="Map0608c" id="Map0608c">
+  <area shape="rect" coords="316,3,352,22" href="${path}/news-list/1218.html" target="_blank" />
+</map></div>
+    <div id="gk_news_middle">
+	     <ul>
+		  <#list news_1218 as article>
+				<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a><span>[${(article.publishTime)?string("yy-MM")!}]</span></li>
+		  </#list>
+	     </ul>
+	</div>
+	<div id="gk_news_bottom"></div>
+</div>
+
+
+
+<div id="gk_news" style="padding-left:6px; _margin-left:-14px;">
+    <div id="gk_news_top"><img src="images/gk_news_top4.jpg" border="0" usemap="#Map0608d" />
+<map name="Map0608d" id="Map0608d"><area shape="rect" coords="310,4,358,23" href="${path}/news-list/1219.html" target="_blank" />
+</map></div>
+    <div id="gk_news_middle">
+	     <ul>
+		  <#list news_1219 as article>
+				<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+		  </#list>
+	     </ul>
+	</div>
+	<div id="gk_news_bottom"></div>
+</div>
+</div>
+<!----gk_bottom结束----->  
+  
+</div>
+<!--信息公开结束-->
+		 
+<!--在线办事开始-->		 
+     <div id="zxbs">
+	      <div id="zxbs_menu"><img src="images/index_34.gif" border="0" usemap="#Mapb3" />
+<map name="Mapb3" id="Mapb3">
+  <area shape="rect" coords="353,6,407,29" href="#" /><area shape="rect" coords="431,10,484,29" href="#" /><area shape="rect" coords="509,10,566,31" href="#" /><area shape="rect" coords="586,10,641,32" href="#" />
+<area shape="rect" coords="662,9,719,30" href="#" /></map></div>
+	      <div id="zxbs_l">
+                  <div style="margin:0px auto;padding:0px;">
+                     <div style="float:left;margin:0px auto;padding:0px;"><img src="images/g.jpg"/></div>
+                     <div style="float:left;margin:0px auto;padding:0px;"><img src="images/s.jpg"/></div>
+                  </div>
+                  <div style="margin:0px auto;padding:0px;">
+                     <div style="float:left;margin:0px auto;padding:0px;"><img src="images/shi.jpg"/></div>
+                     <div style="float:left;margin:0px auto;padding:0px;"><img src="images/x.jpg"/></div>               
+   </div>
+	      </div>
+		  
+		  <div  id="zxbs_r">
+		  
+          <div id="yw1">
+            <div id="yw1_top">
+                <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">整村推进</div>      
+          		<div  style="float:right; padding-right:7px; padding-top:8px;"><a href="${path}/news-list/141314.html" style="text-decoration:none; color:#666;">更多>></a></div>  
+            </div>
+            <div id="yw1_mid">
+               <ul>
+	               	<#list news_141314 as article>
+						<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+			  		</#list>
+	          </ul> 
+            </div>
+             <div id="yw1_bottom"></div>
+           </div>
+           
+          <div id="yw1" style=" margin-left:6px; _margin-left:-23px; ">
+             <div id="yw1_top">
+               <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">产业扶贫</div>      
+          		<div  style="float:right;  padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1210.html" style="text-decoration:none; color:#666;">更多>></a></div>  
+             </div>
+             <div id="yw1_mid">
+	             <ul>
+	           		<#list news_1210 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				  	</#list>
+		          </ul>
+             </div>
+             <div id="yw1_bottom"></div>
+           </div>
+           
+       
+           
+           <div id="yw1">
+             <div id="yw1_top">
+               <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">搬迁扶贫</div>      
+          <div  style="float:right; padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1211.html" style="text-decoration:none; color:#666;">更多>></a></div>  
+             </div>
+             <div id="yw1_mid">
+                <ul>
+					<#list news_1415 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				  	</#list>
+                </ul>
+             </div>
+             <div id="yw1_bottom"></div>
+           </div>
+           
+           
+           
+           <div id="yw1" style=" margin-left:6px; _margin-left:-23px;">
+             <div id="yw1_top">
+               <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">科技扶贫</div>      
+          <div  style="float:right; padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1213.html" style="text-decoration:none; color:#666;">更多>></a></div>  
+             </div>
+             <div id="yw1_mid">
+                <ul>
+					<#list news_1213 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				  	</#list>
+                </ul>
+             </div>
+             <div id="yw1_bottom"></div>
+           </div>
+   
+
+ 	  
+		  </div>
+	 </div>
+     
+
+<!--在线办事结束-->
+
+
+  	
+   </div>
+   
+   <div id="contentbs">
+
+<div id="yw2_list">
+
+   <div id="yw2">
+      <div id="yw2_top"> 
+      <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">社会扶贫</div>      
+      <div  style="float:right;  padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1220.html" style="text-decoration:none;color:#666; ">更多>></a></div>
+      </div>
+      <div id="yw2_mid">
+          <ul>
+				<#list news_1220 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				 </#list>
+          </ul>
+      </div>
+      <div id="yw2_bottom"></div>
+   </div>
+   
+   
+      <div id="yw2" style="padding-left:9px; _margin-left:-12px; padding-right:9px; _margin-right:-6px;">
+      <div id="yw2_top"> 
+      <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">搬迁安置</div>      
+      <div  style="float:right;  padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1214.html" style="text-decoration:none;color:#666; ">更多>></a></div>
+      </div>
+      <div id="yw2_mid">
+          <ul>
+				<#list news_1214 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				 </#list>
+          </ul>
+      </div>
+      <div id="yw2_bottom"></div>
+   </div>
+   
+   
+      <div id="yw2">
+      <div id="yw2_top"> 
+      <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">后期扶持</div>      
+      <div  style="float:right;  padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1215.html" style="text-decoration:none;color:#666; ">更多>></a></div>
+      </div>
+      <div id="yw2_mid">
+          <ul>
+
+            <#list news_1215 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				 </#list>
+          
+          </ul>
+      </div>
+      <div id="yw2_bottom"></div>
+   </div>
+
+
+<div id="yw2" style="padding-left:9px; _margin-left:-35px;">
+      <div id="yw2_top"> 
+      <div  style="float:left; font-size:12px; font-weight:bolder; color:#666; padding-left:13px; padding-top:9px;">三峡移民</div>      
+      <div  style="float:right;  padding-right:7px; padding-top:8px;"><a href="${path}/news-list/1217.html" style="text-decoration:none;color:#666; ">更多>></a></div>
+      </div>
+      <div id="yw2_mid">
+          <ul>
+
+            <#list news_1217 as article>
+							<li><a href="${path}/news/${article.articleId}.html" target="_blank" title="标题：${article.articleTitle}
+点击数：${article.viewCount}
+发表时间：${(article.publishTime)?string("yy年MM月dd日")!}">${article.articleTitle}</a>[${(article.publishTime)?string("yy-MM")!}]</li>
+				 </#list>
+          
+          </ul>
+      </div>
+      <div id="yw2_bottom"></div>
+   </div>
+
+
+
+</div>
+
+
+    
+    
+    
+</div>
+ <!--互动交流开始-->	  
+<div id="hdjl">
+	        <div id="hdjl_menu"><img src="images/hdjl.jpg" border="0" />
+<map name="Mapb4" id="Mapb4">
+  <area shape="rect" coords="201,4,264,28" href="#" /><area shape="rect" coords="282,3,334,30" href="#" /><area shape="rect" coords="359,5,412,31" href="#" /><area shape="rect" coords="438,7,493,31" href="#" /><area shape="rect" coords="517,6,570,32" href="#" /><area shape="rect" coords="596,7,645,30" href="#" /><area shape="rect" coords="674,7,720,31" href="#" /></map></div>
+			<div id="hdjl_l">
+			    <div id="hdjl_l_top"><img src="images/hdjl_l_top.gif" border="0" usemap="#Mapb5" />
+<map name="Mapb5" id="Mapb5">
+  <area shape="rect" coords="198,4,241,21" href="${path}/news-list/1310.html" /></map></div>
+				<div id="hdjl_l_middle">
+				    <div id="ft">
+                    <div id="ftjj">
+					    <div id="ft_img"><a href="
+/Government/Interview/Interview.aspx.html?InterviewId=5" target="_blank">
+<img src="images/nopic.gif
+" border="0">
+</a></div>
+<div id="ft_zt">本期主题</div>
+<div id="ft_gk"><a href="
+/Government/Interview/Interview.aspx.html?InterviewId=5" target="_blank"><strong>
+<#list talking_list as interview>${interview.itvTopic}
+</strong></a></div>
+<div id="ft_list">
+  <ul>
+    <li><a href="
+/Government/Interview/Interview.aspx.html?InterviewId=5" target="_blank">
+[访谈摘要]
+</a></li>
+    <li><a href="
+/Government/Interview/Detail.aspx.html?InterviewId=5" target="_blank">
+[访谈实录]
+</a></li>
+    <li><a href="
+Category/Category_288/Index.aspx.html
+" target="_blank">
+[往期访谈]
+</a></li>
+    <li><a href="interviewTalkAction!findInterviewDetail.front?interview.itvId=${interview.itvId}&flag=1" target="_blank">
+[网友提问]
+</a></li>
+  </ul>
+</div>
+</#list>
+							 			
+					  </div>
+                         
+		               <div id="ft_lb">
+					     <ul>
+						    <li><a href="
+/Government/Interview/Interview.aspx.html?InterviewId=5" target="_blank">
+·省扶贫和移民办公室处室...</a></li>
+														
+					   	 </ul>				
+					   </div>	 
+					</div>
+				</div>
+				<div id="hdjl_l_bottom"><img src="images/hdjl_l_bottom.gif" /></div>
+			</div>
+
+			<div id="hdjl_r">
+			   <div  id="hdjl_r_top">
+			       <div id="hdjl_r_top_menu"><img src="images/hdjl_r_top_menu.gif" /></div>
+			         <div id="hdjl_r_list" >
+				      <ul>
+                         
+                         
+					  </ul>
+                      <div style="float:right; font-weight:bolder; padding-right:15px;  "><a href="http://www.jxfpym.gov.cn/Government/Letter/LetterList.aspx.html?LetterTypeId=0" style="color: #060"  >更多>></a></div>
+			       </div>
+			  </div>
+            
+			</div>   
+			<div id="hdjl_m"><img src="images/hdjlm.jpg" usemap="#Map2" border="0" />
+              <map name="Map2" id="Map2">
+                <area shape="circle" coords="149,167,36" href="Category/Category_352/Index.aspx.html" />
+                <area shape="circle" coords="181,91,34" href="Category/Category_351/Index.aspx.html" />
+                <area shape="circle" coords="40,91,36" href="http://www.jxfpym.gov.cn/Government/Letter/LetterWriter.aspx.html?LetterTypeId=" />
+                <area shape="circle" coords="112,92,32" href="http://www.jxfpym.gov.cn/Government/Letter/LetterWriter.aspx.html?LetterTypeId=" />
+                <area shape="circle" coords="66,169,34" href="http://www.jxfpym.gov.cn/Vote/VoteList.aspx.html" />
+              </map>
+			</div>  
+    </div>
+	 
+<!--互动交流结束-->	    
+</div>
+
+
+<!--main结束-->
+<div id="footDiv">
+
+<!----foot ---->
+<iframe name="content_frame" marginwidth=0 marginheight=0 width="980" height="360" scrolling="no" src="news-foot.html" frameborder=0></iframe> 
+			 	
+</div><#-- footDiv结束-->
+</div>
+</body>
+</html>
